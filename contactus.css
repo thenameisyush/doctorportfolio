@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #f0f4f5;
+    max-width: 1440px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.dheader  img {
+    margin-top: 50px;
+    max-width: 350px;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.dheader ul {
+    display: flex;
+    list-style: none;
+    /* align-items: center;
+    justify-content: space-between; */
+    text-decoration: none;
+    gap: 80px;
+    margin-left: 1000px;
+    margin-top: -10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+main {
+    margin-left: 35pc;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;   
+    height: 85vh; 
+    /* display: flex; */
+}
+
+form {
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
